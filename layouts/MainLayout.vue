@@ -167,7 +167,7 @@ const user = useSupabaseUser()
 
 let isAccountMenu = ref(false)
 let searchItem = ref('')
-let isSearching = ref(true)
+let isSearching = ref(false)
 let isCartHover = ref(false)
 const items = ref(null)
 
