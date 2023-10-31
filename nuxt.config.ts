@@ -2,14 +2,18 @@
 export default defineNuxtConfig({
   // devtools: { enabled: true }
   ssr: false,
+  pages: true,
   modules: [
     "nuxt-icon",
     'nuxt-lodash',
     '@pinia/nuxt',
     '@pinia-plugin-persistedstate/nuxt',
     '@nuxtjs/tailwindcss',
-    // '@nuxtjs/supabase'
+    '@nuxtjs/supabase'
   ],
+  supabase: {
+    redirect: false
+  },
   runtimeConfig: {
     public: {
       stripePk: process.env.STRIPE_PK_KEY
