@@ -61,7 +61,7 @@
             </div>
             <div class="border-b">
               <ul class="bg-white">
-                <li class="text-[13px] py-2 px-4 w-full hover:bg-gray-200">
+                <li @click="navigateTo('/orders')" class="text-[13px] py-2 px-4 w-full hover:bg-gray-200">
                   My Orders
                 </li>
                 <li v-if="user" @click="client.auth.signOut" class="text-[13px] py-2 px-4 w-full hover:bg-gray-200">
