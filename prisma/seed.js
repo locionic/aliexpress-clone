@@ -31,6 +31,8 @@ async function seedProducts() {
       },
     });
 
+    //xoa chua??
+
     await prisma.products.create({
       data: {
         title: "Old Book",
