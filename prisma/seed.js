@@ -31,7 +31,7 @@ async function seedProducts() {
       },
     });
 
-    //xoa chua??
+    //xoa chua?? xoa chuaauhasu
 
     await prisma.products.create({
       data: {
