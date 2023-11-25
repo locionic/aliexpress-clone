@@ -93,7 +93,7 @@
             </div>
             <div class="flex items-center justify-start gap-8 my-4">
               <div v-for="(card, index) in cards">
-                <img :src="card" :alt="`Card image ${index}`">
+                <img class="h-6" :src="card" :alt="`Card image ${index}`">
               </div>
             </div>
           </div>
