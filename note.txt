@@ -1,2 +1,3 @@
 npx prisma migrate deploy
+npx prisma db seed
 matkhausupabase1A!
